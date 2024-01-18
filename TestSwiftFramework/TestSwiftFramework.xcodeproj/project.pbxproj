@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D5B93412B5946410017246B /* TestSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5B93402B5946410017246B /* TestSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D5B93482B5946600017246B /* ArithemeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B93472B5946600017246B /* ArithemeticOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D5B933D2B5946410017246B /* TestSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5B93402B5946410017246B /* TestSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSwiftFramework.h; sourceTree = "<group>"; };
+		1D5B93472B5946600017246B /* ArithemeticOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithemeticOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				1D5B93402B5946410017246B /* TestSwiftFramework.h */,
+				1D5B93472B5946600017246B /* ArithemeticOperation.swift */,
 			);
 			path = TestSwiftFramework;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					1D5B933C2B5946410017246B = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5B93482B5946600017246B /* ArithemeticOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 		1D5B93452B5946410017246B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -287,6 +293,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,6 +302,7 @@
 		1D5B93462B5946410017246B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
