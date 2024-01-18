@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D5B93412B5946410017246B /* TestSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5B93402B5946410017246B /* TestSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D5B93482B5946600017246B /* ArithemeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B93472B5946600017246B /* ArithemeticOperation.swift */; };
+		1D5B935E2B594B3B0017246B /* TodoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5B935D2B594B3B0017246B /* TodoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D5B93662B594BA80017246B /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B93652B594BA80017246B /* TodoView.swift */; };
+		1D5B93682B594BF50017246B /* ArithemeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B93672B594BF50017246B /* ArithemeticOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D5B933D2B5946410017246B /* TestSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D5B93402B5946410017246B /* TestSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSwiftFramework.h; sourceTree = "<group>"; };
-		1D5B93472B5946600017246B /* ArithemeticOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithemeticOperation.swift; sourceTree = "<group>"; };
+		1D5B935A2B594B3B0017246B /* TodoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TodoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5B935D2B594B3B0017246B /* TodoSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoSDK.h; sourceTree = "<group>"; };
+		1D5B93652B594BA80017246B /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		1D5B93672B594BF50017246B /* ArithemeticOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithemeticOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D5B933A2B5946410017246B /* Frameworks */ = {
+		1D5B93572B594B3B0017246B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,79 +30,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D5B93332B5946410017246B = {
+		1D5B93502B594B3B0017246B = {
 			isa = PBXGroup;
 			children = (
-				1D5B933F2B5946410017246B /* TestSwiftFramework */,
-				1D5B933E2B5946410017246B /* Products */,
+				1D5B935C2B594B3B0017246B /* TodoSDK */,
+				1D5B935B2B594B3B0017246B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1D5B933E2B5946410017246B /* Products */ = {
+		1D5B935B2B594B3B0017246B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D5B933D2B5946410017246B /* TestSwiftFramework.framework */,
+				1D5B935A2B594B3B0017246B /* TodoSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D5B933F2B5946410017246B /* TestSwiftFramework */ = {
+		1D5B935C2B594B3B0017246B /* TodoSDK */ = {
 			isa = PBXGroup;
 			children = (
-				1D5B93402B5946410017246B /* TestSwiftFramework.h */,
-				1D5B93472B5946600017246B /* ArithemeticOperation.swift */,
+				1D5B93642B594B420017246B /* Source */,
+				1D5B935D2B594B3B0017246B /* TodoSDK.h */,
 			);
-			path = TestSwiftFramework;
+			path = TodoSDK;
+			sourceTree = "<group>";
+		};
+		1D5B93642B594B420017246B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1D5B93652B594BA80017246B /* TodoView.swift */,
+				1D5B93672B594BF50017246B /* ArithemeticOperation.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D5B93382B5946410017246B /* Headers */ = {
+		1D5B93552B594B3B0017246B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5B93412B5946410017246B /* TestSwiftFramework.h in Headers */,
+				1D5B935E2B594B3B0017246B /* TodoSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D5B933C2B5946410017246B /* TestSwiftFramework */ = {
+		1D5B93592B594B3B0017246B /* TodoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D5B93442B5946410017246B /* Build configuration list for PBXNativeTarget "TestSwiftFramework" */;
+			buildConfigurationList = 1D5B93612B594B3B0017246B /* Build configuration list for PBXNativeTarget "TodoSDK" */;
 			buildPhases = (
-				1D5B93382B5946410017246B /* Headers */,
-				1D5B93392B5946410017246B /* Sources */,
-				1D5B933A2B5946410017246B /* Frameworks */,
-				1D5B933B2B5946410017246B /* Resources */,
+				1D5B93552B594B3B0017246B /* Headers */,
+				1D5B93562B594B3B0017246B /* Sources */,
+				1D5B93572B594B3B0017246B /* Frameworks */,
+				1D5B93582B594B3B0017246B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestSwiftFramework;
-			productName = TestSwiftFramework;
-			productReference = 1D5B933D2B5946410017246B /* TestSwiftFramework.framework */;
+			name = TodoSDK;
+			productName = TodoSDK;
+			productReference = 1D5B935A2B594B3B0017246B /* TodoSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1D5B93342B5946410017246B /* Project object */ = {
+		1D5B93512B594B3B0017246B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					1D5B933C2B5946410017246B = {
+					1D5B93592B594B3B0017246B = {
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
 					};
 				};
 			};
-			buildConfigurationList = 1D5B93372B5946410017246B /* Build configuration list for PBXProject "TestSwiftFramework" */;
+			buildConfigurationList = 1D5B93542B594B3B0017246B /* Build configuration list for PBXProject "TodoSDK" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,18 +119,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 1D5B93332B5946410017246B;
-			productRefGroup = 1D5B933E2B5946410017246B /* Products */;
+			mainGroup = 1D5B93502B594B3B0017246B;
+			productRefGroup = 1D5B935B2B594B3B0017246B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D5B933C2B5946410017246B /* TestSwiftFramework */,
+				1D5B93592B594B3B0017246B /* TodoSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D5B933B2B5946410017246B /* Resources */ = {
+		1D5B93582B594B3B0017246B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,18 +140,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D5B93392B5946410017246B /* Sources */ = {
+		1D5B93562B594B3B0017246B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5B93482B5946600017246B /* ArithemeticOperation.swift in Sources */,
+				1D5B93662B594BA80017246B /* TodoView.swift in Sources */,
+				1D5B93682B594BF50017246B /* ArithemeticOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1D5B93422B5946410017246B /* Debug */ = {
+		1D5B935F2B594B3B0017246B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		1D5B93432B5946410017246B /* Release */ = {
+		1D5B93602B594B3B0017246B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +272,7 @@
 			};
 			name = Release;
 		};
-		1D5B93452B5946410017246B /* Debug */ = {
+		1D5B93622B594B3B0017246B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -287,7 +299,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.agilysys.TestSwiftFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilysys.TodoSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -299,7 +311,7 @@
 			};
 			name = Debug;
 		};
-		1D5B93462B5946410017246B /* Release */ = {
+		1D5B93632B594B3B0017246B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -326,7 +338,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.agilysys.TestSwiftFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilysys.TodoSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -340,25 +352,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D5B93372B5946410017246B /* Build configuration list for PBXProject "TestSwiftFramework" */ = {
+		1D5B93542B594B3B0017246B /* Build configuration list for PBXProject "TodoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D5B93422B5946410017246B /* Debug */,
-				1D5B93432B5946410017246B /* Release */,
+				1D5B935F2B594B3B0017246B /* Debug */,
+				1D5B93602B594B3B0017246B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D5B93442B5946410017246B /* Build configuration list for PBXNativeTarget "TestSwiftFramework" */ = {
+		1D5B93612B594B3B0017246B /* Build configuration list for PBXNativeTarget "TodoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D5B93452B5946410017246B /* Debug */,
-				1D5B93462B5946410017246B /* Release */,
+				1D5B93622B594B3B0017246B /* Debug */,
+				1D5B93632B594B3B0017246B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1D5B93342B5946410017246B /* Project object */;
+	rootObject = 1D5B93512B594B3B0017246B /* Project object */;
 }
